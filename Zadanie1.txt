@@ -1,0 +1,15 @@
+Zadanie 1.
+Napisaæ nastêpuj¹ce funkcje:
+1. Napisz funkcjê reverseNumber, która odwraca liczbê. Np. wywo³anie z '123456' zwraca '654321'.
+2. Napisz funkcje która przyjmuje na wejœciu stringa "javascript" i zwraca stringa posortowanego alfabetycznie ("aacijprstv");
+3. Napisz funkcjê która przyjmuje na wejœciu dowolny argument i zwraca jego typ.
+4. Napisz funkcjê która przyjmuje na wejœciu tablicê [1,2,3,4,5,6] i zwraca tablicê w której ka¿dy element jest pomno¿ony razy 2.
+5. Napisz funkcjê która za ka¿dym wywo³aniem generuje unikalny ci¹g znaków.
+6. Napisz funkcjê multiply aby poni¿sze wywo³ania dawa³y poprawny wynik:
+var multiply5 = multiply(5);
+multiply5('2'); // zwraca 10
+multiply5('5'); // zwraca 25
+multiply5('10'); // zwraca 50
+7. Napisz funkcjê która przyjmuje dowoln¹ iloœæ argumentów i zwraca ostatni z nich.
+8. Napisaæ algorytm, który przestawi wszystkie elementy '0' na pocz¹tek tablicy w czasie O(n).
+np. [1, 0, 2, 0, 0] -> [0, 0, 0, 1, 2]
