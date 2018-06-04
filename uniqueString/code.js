@@ -10,13 +10,32 @@ window.addEventListener("load", function(){
 	}
 	
 	function uniqueString2(len) {
-	  var text = "";
-	  var alphabet = "abcdefghijklmnopqrstuvwxyz";
+	  let text = "";
+	  let alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-	  for (var i = 0; i < len; i++){
+	  for (let i = 0; i < len; i++){
 		text += alphabet.charAt(Math.floor(Math.random() * alphabet.length));
 	  }
 	  return text;
 	}	
+	
+	//nowe funkcje
+	
+	function randomString(){
+		return Math.random().toString(36).substring(2);
+	}
+	
+	function randomString2(L) {
+	  let s = '';
+	  let randomchar = function() {
+		let n = Math.round(Math.random() * 62);
+		if (n < 10) return n; //0-9
+		if (n < 36) return String.fromCharCode(n + 55); //A-Z
+		return String.fromCharCode(n + 61); //a-z
+	  }
+	  while (s.length < L) s += randomchar();
+	  return s;
+	}
+
 	
 });

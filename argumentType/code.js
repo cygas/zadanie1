@@ -22,6 +22,9 @@ window.addEventListener("load", function(){
 	console.log(argType(c));
 	console.log(argType(d));
 	console.log(argType(e));
+	
+	console.log(c instanceof Array);
+	console.log(Array.isArray(c));
 
 
 });

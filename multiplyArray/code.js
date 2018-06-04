@@ -14,5 +14,11 @@ window.addEventListener("load", function(){
 		}
 		return this;
 	}
+	
+	// nowa funkcja
+	
+	function multiplyArr2(arr){
+		return arr.map((a)=>a*2);
+	}
 
 });
