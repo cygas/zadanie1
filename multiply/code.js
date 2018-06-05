@@ -6,6 +6,6 @@ window.addEventListener("load", function(){
 		}
 	}
 	
-	let multi = num => { return str => num*str; };
+let multi = num => str => num*str;
 
 });
